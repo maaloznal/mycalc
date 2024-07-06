@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="inputField" class="input-field" placeholder="Enter expression" onkeydown="handleKeyDown(event)">
+        <div class="buttons">
+            <!-- Кнопки калькулятора -->
+            <button onclick="addToInput('1')">1</button>
+            <button onclick="addToInput('2')">2</button>
+            <button onclick="addToInput('3')">3</button>
+            <button onclick="addToInput(' + ')">+</button>
+            <button onclick="addToInput('4')">4</button>
+            <button onclick="addToInput('5')">5</button>
+            <button onclick="addToInput('6')">6</button>
+            <button onclick="addToInput(' - ')">-</button>
+            <button onclick="addToInput('7')">7</button>
+            <button onclick="addToInput('8')">8</button>
+            <button onclick="addToInput('9')">9</button>
+            <button onclick="addToInput(' * ')">*</button>
+            <button onclick="addToInput('0')">0</button>
+            <button onclick="addToInput('10')">10</button>
+            <button onclick="addToInput(' / ')">/</button>
+            <button onclick="clearInput()">C</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="addToInput('I')">I</button>
+            <button onclick="addToInput('II')">II</button>
+            <button onclick="addToInput('III')">III</button>
+            <button onclick="addToInput('IV')">IV</button>
+            <button onclick="addToInput('V')">V</button>
+            <button onclick="addToInput('VI')">VI</button>
+            <button onclick="addToInput('VII')">VII</button>
+            <button onclick="addToInput('VIII')">VIII</button>
+            <button onclick="addToInput('IX')">IX</button>
+            <button onclick="addToInput('X')">X</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
